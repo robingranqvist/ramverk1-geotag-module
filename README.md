@@ -26,7 +26,7 @@ rsync -av vendor/robin/geotag/src ./
 rsync -av vendor/robin/geotag/view ./
 
 ## Copy unit test files
-rsync -av vendor/robin/test/Controller ./
+$ rsync -av vendor/robin/geotag/test/Controller ./test/
 
 ## Copy the documentation
 rsync -av vendor/robin/geotag/README.md ./content/weather-module-info.md
