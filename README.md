@@ -15,9 +15,9 @@ Also make sure to update composer by running the command "composer update" in yo
 Install the module by entering the following commands:
 
 ## Copy config files
-rsync -av vendor/robingranqvist/geotag/config/di/covalidator.php ./
-rsync -av vendor/robingranqvist/geotag/config/router ./
-rsync -av vendor/robingranqvist/geotag/config/keys.php ./
+rsync -av vendor/robingranqvist/geotag/config/di/covalidator.php ./config/di
+rsync -av vendor/robingranqvist/geotag/config/router ./config/router
+rsync -av vendor/robingranqvist/geotag/config/keys.php ./config/keys
 
 ## Copy src files
 rsync -av vendor/robingranqvist/geotag/src ./
