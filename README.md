@@ -15,18 +15,18 @@ Also make sure to update composer by running the command "composer update" in yo
 Install the module by entering the following commands:
 
 ## Copy config files
-rsync -av vendor/robin/geotag/config/di/covalidator.php ./
-rsync -av vendor/robin/geotag/config/router ./
-rsync -av vendor/robin/geotag/config/keys.php ./
+rsync -av vendor/robingranqvist/geotag/config/di/covalidator.php ./
+rsync -av vendor/robingranqvist/geotag/config/router ./
+rsync -av vendor/robingranqvist/geotag/config/keys.php ./
 
 ## Copy src files
-rsync -av vendor/robin/geotag/src ./
+rsync -av vendor/robingranqvist/geotag/src ./
 
 ## Copy views
-rsync -av vendor/robin/geotag/view ./
+rsync -av vendor/robingranqvist/geotag/view ./
 
 ## Copy unit test files
-$ rsync -av vendor/robin/geotag/test/Controller ./test/
+$ rsync -av vendor/robingranqvist/geotag/test/Controller ./test/
 
 ## Copy the documentation
-rsync -av vendor/robin/geotag/README.md ./content/weather-module-info.md
+rsync -av vendor/robingranqvist/geotag/README.md ./content/weather-module-info.md
