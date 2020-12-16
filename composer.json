@@ -1,5 +1,5 @@
 {
-    "name": "robin/geotag",
+    "name": "robingranqvist/geotag",
     "type": "library",
     "description": "Robin's weather module.",
     "keywords": ["weather", "education"],
