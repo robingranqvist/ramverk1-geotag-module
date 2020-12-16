@@ -1,0 +1,34 @@
+{
+    "name": "robin/weather",
+    "type": "library",
+    "description": "Robin's weather module.",
+    "keywords": ["weather", "education"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Granqvist",
+            "email": "robin.granqvist@hotmail.se",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/",
+            "Robin\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "anax/commons": "^2.0.14"
+    },
+    "require-dev": {
+        "anax/configure": "^2.0.0@alpha",
+        "anax/di": "^2.0.4@alpha",
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/request": "^2.0.0@alpha",
+        "anax/response": "^2.0.0@alpha"
+    }
+}
